@@ -5,11 +5,15 @@ class CountWordView
     @element = document.createElement('div')
     @element.classList.add('count-word')
 
-    # Create message element
-    message = document.createElement('div')
-    message.textContent = "The CountWord package is Alive! It's ALIVE!"
-    message.classList.add('message')
-    @element.appendChild(message)
+    allTextTitle = document.createElement('p')
+    allTextTitle.textContent = "--- ALL TEXT ---"
+    allTextTitle.classList.add('message')
+    @element.appendChild(allTextTitle)
+
+    AllTextResultElm = document.createElement('p')
+    @element.appendChild(AllTextResultElm)
+
+
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
@@ -20,3 +24,7 @@ class CountWordView
 
   getElement: ->
     @element
+
+  setCount: (wordsCount, charsCount, lineCount)->
+    AllTextResult = "Words : #{wordsCount}　Characters : #{charsCount}　Lines : #{lineCount}"
+    @element.children[1].textContent = AllTextResult
