@@ -1,8 +1,7 @@
-# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle count-word'
+      'label': 'Count Words'
       'command': 'count-word:toggle'
     }
   ]
@@ -10,10 +9,10 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'count-word'
+      'label': 'Toggle Count'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Count'
           'command': 'count-word:toggle'
         }
       ]
