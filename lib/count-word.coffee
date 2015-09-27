@@ -31,9 +31,23 @@ module.exports = CountWord =
     else
       editor = atom.workspace.getActiveTextEditor()
       text = editor.getText()
+      selectedText = editor.getSelectedText()
       words = text.split(/\s+/)
+      selectedWords = selectedText.split(/\s+/)
       wordsCount = words.length
+      selectedWordsCount = selectedWords.length
       charsCount = words.join('').length
-      lineCount = text.split(/\r\n|\r|\n/).length
-      @countWordView.setCount(wordsCount, charsCount, lineCount)
+      selectedCharsCount = selectedWords.join('').length
+      linesCount = text.split(/\r\n|\r|\n/).length
+      selectedLinesCount = selectedText.split(/\r\n|\r|\n/).length
+
+      @countWordView.setCount(
+        wordsCount,
+        charsCount,
+        linesCount,
+        selectedWordsCount,
+        selectedCharsCount,
+        selectedLinesCount
+        )
+
       @modalPanel.show()
