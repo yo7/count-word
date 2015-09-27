@@ -1,8 +1,8 @@
 # Count Word
 
-Simple package to count words, characters and lines on Atom Editor ! :octocat:
+Simple package to count words, characters and lines on Atom Editor :octocat:
 
-[![Gyazo](https://i.gyazo.com/fc375c1d169e3fc06b8f3d45836e7931.png)](https://gyazo.com/fc375c1d169e3fc06b8f3d45836e7931)
+<a href="https://gyazo.com/86331c45087f37edb0a53cd9673e2d9a"><img src="https://i.gyazo.com/86331c45087f37edb0a53cd9673e2d9a.png" /></a>
 
 
 Install via command line `$ apm install count-word`, or via 'Install' from Atom's settings menu.
@@ -21,5 +21,5 @@ You can change the keymap by editing `keymap.cson` like this:
 
 ## Tasks
 
-- [ ] Count selected words  
+- [x] Count selected words  
 - [ ] Close button on modal  
