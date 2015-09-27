@@ -1,9 +1,8 @@
 # Count Word
 
-Simple package to count words, characters and lines on Atom Editor :octocat:
+Simple package to count characters, words and lines on Atom Editor :octocat:
 
-<a href="https://gyazo.com/86331c45087f37edb0a53cd9673e2d9a"><img src="https://i.gyazo.com/86331c45087f37edb0a53cd9673e2d9a.png" /></a>
-
+<a href="https://gyazo.com/ef74ad387d3ea745352fb7239279e50f"><img src="https://i.gyazo.com/ef74ad387d3ea745352fb7239279e50f.png" /></a>
 
 Install via command line `$ apm install count-word`, or via 'Install' from Atom's settings menu.
 
