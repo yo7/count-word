@@ -9,7 +9,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Toggle Count'
+      'label': 'Count Words'
       'submenu': [
         {
           'label': 'Count'
