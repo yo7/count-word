@@ -2,7 +2,7 @@
   "name": "count-word",
   "main": "./lib/count-word",
   "version": "0.0.0",
-  "description": "A dead simple package to count words",
+  "description": "Count words, characters and lines.",
   "activationCommands": {
     "atom-workspace": "count-word:toggle"
   },
