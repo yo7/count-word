@@ -6,12 +6,13 @@ class CountWordView
     @element.classList.add('count-word')
 
     allTextTitle = document.createElement('p')
-    allTextTitle.textContent = "--- ALL TEXT ---"
-    allTextTitle.classList.add('message')
+    allTextTitle.textContent = "ALL TEXT"
+    allTextTitle.classList.add('count-message', 'count-title')
     @element.appendChild(allTextTitle)
 
-    AllTextResultElm = document.createElement('p')
-    @element.appendChild(AllTextResultElm)
+    allTextResultElm = document.createElement('p')
+    allTextResultElm.classList.add('count-message')
+    @element.appendChild(allTextResultElm)
 
 
 
@@ -26,5 +27,5 @@ class CountWordView
     @element
 
   setCount: (wordsCount, charsCount, lineCount)->
-    AllTextResult = "Words : #{wordsCount}　Characters : #{charsCount}　Lines : #{lineCount}"
-    @element.children[1].textContent = AllTextResult
+    allTextResult = "Words : #{wordsCount}　Characters : #{charsCount}　Lines : #{lineCount}"
+    @element.children[1].textContent = allTextResult
