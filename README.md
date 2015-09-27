@@ -18,5 +18,5 @@ You can change keymap by editing `keymap.cson` like this:
 
 ## Tasks
 
-[ ] Count selected words  
-[ ] Close button on modal  
+- [ ] Count selected words  
+- [ ] Close button on modal  
