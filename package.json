@@ -1,7 +1,7 @@
 {
   "name": "count-word",
   "main": "./lib/count-word",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Count words, characters and lines.",
   "activationCommands": {
     "atom-workspace": "count-word:toggle"
