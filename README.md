@@ -1,6 +1,9 @@
 # Count Word
 
-Count words, characters and lines on Atom!
+Simple package to count words, characters and lines on Atom Editor ! :octocat:
+
+[![Gyazo](https://i.gyazo.com/fc375c1d169e3fc06b8f3d45836e7931.png)](https://gyazo.com/fc375c1d169e3fc06b8f3d45836e7931)
+
 
 Install via command line `$ apm install count-word`, or via 'Install' from Atom's settings menu.
 
@@ -9,7 +12,7 @@ Install via command line `$ apm install count-word`, or via 'Install' from Atom'
 From command palette <kbd>cmd-shift-p</kbd>, use command `Count Word:Toggle`.
 
 Default keymap is <kbd>ctrl-alt-w</kbd>.  
-You can change keymap by editing `keymap.cson` like this:
+You can change the keymap by editing `keymap.cson` like this:
 
 ```
 'atom-workspace':
