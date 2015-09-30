@@ -17,8 +17,3 @@ You can change the keymap by editing `keymap.cson` like this:
 'atom-workspace':
   'your-favorite-key': 'count-word:toggle'
 ```
-
-## Tasks
-
-- [x] Count selected words  
-- [ ] Close button on modal  
