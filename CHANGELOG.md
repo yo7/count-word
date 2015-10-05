@@ -3,3 +3,4 @@
 
 ## 0.2.0 - Second Release
 - Count selected text
+
